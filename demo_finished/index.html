@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scope</title>
+  <script src="angular.js"></script>
+  <script src="angular-route.js"></script>
+  <script src="demo.js"></script>
+  <base href="/" />
+</head>
+<body ng-app="app">
+
+  <div>
+    <ul>
+      <li>
+        <a href="/home">Home</a>
+      </li>
+      <li>
+        <a href="/about/cats">About Cats</a>
+      </li>
+      <li>
+        <a href="/about/sheep">About Sheep</a>
+      </li>
+    </ul>
+
+    <div ng-view></div>
+
+  <div>
+
+</body>
+</html>
