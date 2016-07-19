@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scope</title>
+  <script src="angular.js"></script>
+  <script src="angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="flickr.js"></script>
+  <base href="/" />
+</head>
+<body ng-app="app">
+
+  <div>
+    <ul>
+      <li>
+        <a href="/flickr/cats">Cats</a>
+      </li>
+      <li>
+        <a href="/flickr/dogs">Dogs</a>
+      </li>
+      <li>
+        <a href="/flickr/hamsters">Hamsters</a>
+      </li>
+    </ul>
+
+    <div ng-view></div>
+
+  <div>
+
+</body>
+</html>
